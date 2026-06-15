@@ -9,13 +9,17 @@ I work with:
   - Unreal Engine
   - Godot
   - Blender
-  
 - Languages
   - C#
   - C++
   - UE Blueprint scripting
   - Python
   - HTML/CSS
+- Other competences
+  - Game design
+  - Project leading
+  - Leadership
 
+Checkout my [resume](https://docs.google.com/document/d/1GWjWk59NY1CemM_w2PJtUiwYFhBEnAJ2UZ02DBDY8RY/edit?usp=sharing) and [portfolio](https://asennh.github.io/Asennh/) (WIP)
 
-Checkout my [portfolio](https://asennh.github.io/Asennh/) (WIP)
+Feel free to reach out to me through [LinkedIn](https://www.linkedin.com/in/hannes-nilsson-1b8bb4272/)
