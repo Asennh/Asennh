@@ -12,7 +12,7 @@ ProjectName
 Bestlink: [Link](https://asennh.github.io/Asennh/)
 
 <div style="
-  background: url('Assets\Images\Debug\BackgroundTest.png) center/cover;
+  background: url('Assets\Images\Debug\BackgroundTest.png') center/cover;
   padding: 2rem;
 ">
 
