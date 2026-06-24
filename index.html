@@ -1,9 +1,56 @@
-<div style="
-  background-image: url('Assets/Images/Debug/BackgroundTest.png');
-  background-size: cover;
-  background-position: center;
-  padding: 20px;
-  color: white;
-">
-This text appears over the background image.
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Hannes Nilsson Porfolio</title>
+  <link rel="stylesheet" type="" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <!--A refers to a link, href is the target and the text is the clickable text. # provides a link to a object with the same ID somewhere on the same page-->
+        <li><a href="AboutMe.html">Link to about me</a></li>
+        <li><a href="AboutMe.html">Link to about me</a></li>
+        <li><a href="#my-work">my stuff</a></li>
+        <li><a href="AboutMe.html">Link to about me</a></li>
+      </ul>
+    </nav>
+    <div class="flex-container">
+      <img height="200px" width=" 150px" src="Assets\Images\Debug\BackgroundTest.png">
+      <div class="text-container">
+        <h1>This is me!</h1>
+        <p>lotta text</p>
+        <!--Objects can have multiple classes define this by putting a space between class names.
+        Here the first button is of the class <cta-button> and the second is of the classes <cta-button> and <secondary> This lets it get styling from both classes in the css stylesheet.-->
+        <a href="#my-work" class="cta-button">My stuff!</a>
+        <a href="#my-work" class="cta-button secondary">more stuff!</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="flex-container">
+      <div class="text-container">
+        <h2>Text</h2>
+        <p>bread text</p>        
+      </div>
+      <img height="200px" width="150px" src="Assets\Images\Debug\BackgroundTest.png">
+    </div>
+  </section>
+
+  <!--Setting Id's lets us find and reference these sections or objects in other parts of our code.-->
+  <section id="my-work">
+    <h2>Some of my work</h2>
+    <div class="grid-container">
+      <img style="grid-area: img-1" src="Assets\Images\Debug\BackgroundTest.png">
+      <img style="grid-area: img-2" src="Assets\Images\Debug\BackgroundTest.png">
+      <img style="grid-area: img-3" src="Assets\Images\Debug\BackgroundTest.png">
+      <img style="grid-area: img-4" src="Assets\Images\Debug\BackgroundTest.png">
+      <img style="grid-area: img-5" src="Assets\Images\Debug\BackgroundTest.png">
+    </div>
+    <a href="https://www.github.com/Asennh" class="cta-button">More here!</a>
+  </section>
+</body>
+</html>
